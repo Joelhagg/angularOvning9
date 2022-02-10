@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'ovning9';
+
+  birthday: Date = new Date(1990, 8, 24)
+
+  fullName: string = 'Joel Hägg'
+  
 }
